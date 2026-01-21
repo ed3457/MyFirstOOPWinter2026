@@ -6,8 +6,6 @@ void Student::printStudentInfo()
 	cout << "Student Name:\n"<<name<<endl;
 	cout << "Student ID:\n"<<id<<endl;
 	cout << "Student Major\n"<<major<<endl;
-
-
 }
 
 

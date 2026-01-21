@@ -11,6 +11,16 @@ private:
 
 public: 
 	void printStudentInfo();
+	string getName() const;
+	void setName(string n);
+
+	string getID() const;
+	void setID(string i); 
+
+	string getMajor() const;
+	void setMajor(string m);
+
+
 
 };
 
