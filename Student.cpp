@@ -8,5 +8,37 @@ void Student::printStudentInfo()
 	cout << "Student Major\n"<<major<<endl;
 }
 
+string Student::getName() const
+{
+	return name; 
+}
+
+void Student::setName(string n)
+{
+	//TODO: Add validation later 
+	name = n;
+
+}
+
+string Student::getID() const
+{
+	return id;
+}
+
+void Student::setID(string i)
+{
+	id = i;
+}
+
+string Student::getMajor() const
+{
+	return major;
+}
+
+void Student::setMajor(string m)
+{
+	major = m;
+}
+
 
 
