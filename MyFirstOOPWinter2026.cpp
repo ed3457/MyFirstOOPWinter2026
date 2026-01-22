@@ -7,11 +7,25 @@
 using namespace std; 
 int main()
 {
-	Student john1;
+	/*Student john1;
+
+	john1.setID("12345A");
+
+	john1.setName("James Bond");
+
+	john1.setMajor("English");
 
 	john1.printStudentInfo();
 
-	
+	cout << john1.getID() << endl;*/
+
+	//Student s1;
+
+	Student s2("Jane", "32422A", "CS");
+
+	//s1.printStudentInfo();
+
+	s2.printStudentInfo();
 
 }
 

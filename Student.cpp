@@ -40,5 +40,24 @@ void Student::setMajor(string m)
 	major = m;
 }
 
+//Student::Student()
+//{
+//	setName("Not given yet!");
+//	setID("--------");
+//	setMajor("Not set yet!");
+//
+//}
+
+Student::Student(string n, string i, string m)
+{
+	setName(n);
+	setID(i);
+	setMajor(m);
+
+
+}
+
+
+
 
 

@@ -10,7 +10,10 @@ private:
 	string major;
 
 public: 
+	// Functions 
 	void printStudentInfo();
+
+	// Setters and Getters
 	string getName() const;
 	void setName(string n);
 
@@ -20,6 +23,11 @@ public:
 	string getMajor() const;
 	void setMajor(string m);
 
+	// Constructors 
+
+	//Student(); // Default Constructor 
+
+	Student(string n, string i, string m);// Parameterized Constructor or overloaded constructor 
 
 
 };
